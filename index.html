@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kelas 3IB - Manajemen Informatika</title>
+  <meta name="description" content="Website resmi Kelas 3IB Manajemen Informatika">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="images/logo.png" type="image/png">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo">MIVIBES</a>
+      <nav>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#home">Beranda</a></li>
+          <li><a href="#tentang">Tentang</a></li>
+          <li><a href="#anggota">Anggota</a></li>
+          <li><a href="#struktur">Struktur</a></li>
+          <li><a href="#galeri">Galeri</a></li>
+          <li><a href="#jadwal">Jadwal</a></li>
+          <li><a href="#kontak">Kontak</a></li>
+        </ul>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Buka menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Nama Kelas / Angkatan</h1>
+      <p class="tagline">Tuliskan tagline atau motto kelas kamu di sini</p>
+      <a href="#tentang" class="btn-primary">Lihat Selengkapnya</a>
+    </div>
+  </section>
+
+  <!-- TENTANG KELAS -->
+  <section id="tentang" class="section">
+    <h2 class="section-title">Tentang Kelas</h2>
+    <div class="tentang-content">
+      <img src="images/logo.png" class="tentang-img">
+      <div class="tentang-text">
+        <p>
+          Tuliskan deskripsi singkat tentang kelas kamu di sini. Contoh: jurusan,
+          angkatan, jumlah mahasiswa, dan hal-hal menarik lainnya tentang kelas ini.
+        </p>
+        <ul class="tentang-info">
+          <li><strong>Jurusan:</strong> Manajemen Informatika</li>
+          <li><strong>Jenjang:</strong> D3</li>
+          <li><strong>Angkatan:</strong> 2024</li>
+          <li><strong>Wali Kelas / Dosen PA:</strong> Nama Dosen</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ANGGOTA -->
+  <section id="anggota" class="section alt-bg">
+    <h2 class="section-title">Anggota Kelas</h2>
+    <input type="text" id="searchAnggota" class="search-box" placeholder="Cari nama mahasiswa...">
+    <div class="anggota-grid" id="anggotaGrid">
+      <!-- 24 anggota kelas -->
+      <div class="anggota-card">
+        <img src="images/Aflah.jpg">
+        <h3>Aflah Muhammad Shafin</h3>
+        <p>NIM: 062530801574</p>
+      </div>
+      <div class="anggota-card">
+        <img src="images/afrita.jpg">
+        <h3>Afrita Mukhbuta Sari</h3>
+        <p>NIM: 062530801575</p>
+      </div>
+      <div class="anggota-card">
+        <img src="images/ahmadsqi.jpg"">
+        <h3>Ahmad Sauqi Efriansyah</h3>
+        <p>NIM: 062530801576</p>
+      </div>
+      <div class="anggota-card">
+        <img src="images/andika.jpg">
+        <h3>Andika Prayuda</h3>
+        <p>NIM: 062530801577</p>
+      </div>
+      <div class="anggota-card">
+        <img src="images/aulia.jpg">
+        <h3>Aulia </h3>
+        <p>NIM: 062530801578</p>
+      </div>
+      <div class="anggota-card">
+        <img src="images/azahra.jpg">
+        <h3>Azahra </h3>
+        <p>NIM: 062530801579</p>
+      </div>
+      <div class="anggota-card">
+        <img src="images/bunga.jpg">
+        <h3>Bunga Engelina</h3>
+        <p>NIM: 062530801580</p>
+      </div>
+      <div class="anggota-card">
+        <img src="images/deswita.jpg">
+        <h3>Deswita Nurul</h3>
+        <p>NIM: 062530801581</p>
+      </div>
+      <div class="anggota-card">
+        <img src="images/dinda.jpg">
+        <h3>Dinda Amalia</h3>
+        <p>NIM: 062530801582</p>
+      </div>
+      <div class="anggota-card">
+        <img src="images/filiyan.jpg">
+        <h3>Filiyan Pratama</h3>
+        <p>NIM: 062530801583</p>
+      </div>
+      <div class="anggota-card">
+        <img src="images/karima.jpg">
+        <h3>Karima Salsabila</h3>
+        <p>NIM: 062530801584</p>
+      </div>
+      <div class="anggota-card">
+        <img src="images/wildan.jpg">
+        <h3>Wildan Pratama</h3>
+        <p>NIM: 062530801585</p>
+      </div>
+      <div class="anggota-card">
+        <img src="images/ihsan.jpg">
+        <h3>Ihsan Maulana</h3>
+        <p>NIM: 062530801586</p>
+      </div>
+      <div class="anggota-card">
+        <img src="images/masayu.jpg">
+        <h3>Masayu Lestari</h3>
+        <p>NIM: 062530801587</p>
+      </div>
+      <div class="anggota-card">
+        <img src="images/mifta.jpg">
+        <h3>Mifta Salsabila</h3>
+        <p>NIM: 062530801588</p>
+      </div>
+      <div class="anggota-card">
+        <img src="images/zidal.jpg">
+        <h3>Zidal Fauzi</h3>
+        <p>NIM: 062530801589</p>
+      </div>
+      <div class="anggota-card">
+        <img src="images/nawai.jpg">
+        <h3>Nawai Putri</h3>
+        <p>NIM: 062530801590</p>
+      </div>
+      <div class="anggota-card">
+        <img src="images/">
+        <h3>Nama Mahasiswa 18</h3>
+        <p>NIM: 062530801591</p>
+      </div>
+      <div class="anggota-card">
+        <img src="images/putra.jpg">
+        <h3>Nama Mahasiswa 19</h3>
+        <p>NIM: 062530801592</p>
+      </div>
+      <div class="anggota-card">
+        <img src="images/retno.jpg">
+        <h3>Nama Mahasiswa 20</h3>
+        <p>NIM: 062530801593</p>
+      </div>
+      <div class="anggota-card">
+        <img src="images/anggota/placeholder.png">
+        <h3>Nama Mahasiswa 21</h3>
+        <p>NIM: 062530801594</p>
+      </div>
+      <div class="anggota-card">
+        <img src="images/caca.jpg">
+        <h3>Nama Mahasiswa 22</h3>
+        <p>NIM: 062530801595</p>
+      </div>
+      <div class="anggota-card">
+        <img src="images/ulfa.jpg">
+        <h3>Nama Mahasiswa 23</h3>
+        <p>NIM: 062530801596</p>
+      </div>
+      <div class="anggota-card">
+        <img src="images/ayas.jpg">
+        <h3>Nama Mahasiswa 24</h3>
+        <p>NIM: 062530801597</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- STRUKTUR ORGANISASI -->
+  <section id="struktur" class="section">
+    <h2 class="section-title">Struktur Organisasi</h2>
+    <div class="struktur-grid">
+      <div class="struktur-card">
+        <img src="images/anggota/placeholder.png" alt="Ketua Kelas">
+        <h3>Nama Ketua</h3>
+        <p>Ketua Kelas</p>
+      </div>
+      <div class="struktur-card">
+        <img src="images/anggota/placeholder.png" alt="Wakil Ketua">
+        <h3>Nama Wakil</h3>
+        <p>Wakil Ketua</p>
+      </div>
+      <div class="struktur-card">
+        <img src="images/anggota/placeholder.png" alt="Sekretaris">
+        <h3>Nama Sekretaris</h3>
+        <p>Sekretaris</p>
+      </div>
+      <div class="struktur-card">
+        <img src="images/anggota/placeholder.png" alt="Bendahara">
+        <h3>Nama Bendahara</h3>
+        <p>Bendahara</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERI -->
+  <section id="galeri" class="section alt-bg">
+    <h2 class="section-title">Galeri Kegiatan</h2>
+    <div class="galeri-grid" id="galeriGrid">
+      <!-- Diisi otomatis oleh script.js, 4 foto per halaman -->
+    </div>
+    <div class="galeri-pagination" id="galeriPagination">
+      <!-- Nomor halaman diisi otomatis oleh script.js -->
+    </div>
+    <!-- Modal untuk lihat foto ukuran besar -->
+    <div id="imgModal" class="modal">
+      <span class="modal-close" onclick="closeModal()">&times;</span>
+      <img id="modalImg" class="modal-content">
+    </div>
+  </section>
+
+  <!-- JADWAL KULIAH -->
+  <section id="jadwal" class="section alt-bg">
+    <h2 class="section-title">Jadwal Kuliah</h2>
+    <div class="table-wrapper">
+      <table class="jadwal-table">
+        <thead>
+          <tr>
+            <th>Hari</th>
+            <th>Jam</th>
+            <th>Mata Kuliah</th>
+            <th>Dosen</th>
+            <th>Ruang</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Senin</td>
+            <td>08:00 - 09:40</td>
+            <td>Nama Mata Kuliah 1</td>
+            <td>Nama Dosen</td>
+            <td>Ruang X</td>
+          </tr>
+          <tr>
+            <td>Senin</td>
+            <td>10:00 - 11:40</td>
+            <td>Nama Mata Kuliah 2</td>
+            <td>Nama Dosen</td>
+            <td>Ruang X</td>
+          </tr>
+          <tr>
+            <td>Selasa</td>
+            <td>08:00 - 09:40</td>
+            <td>Nama Mata Kuliah 3</td>
+            <td>Nama Dosen</td>
+            <td>Ruang X</td>
+          </tr>
+          <tr>
+            <td>Selasa</td>
+            <td>10:00 - 11:40</td>
+            <td>Nama Mata Kuliah 4</td>
+            <td>Nama Dosen</td>
+            <td>Ruang X</td>
+          </tr>
+          <tr>
+            <td>Rabu</td>
+            <td>08:00 - 09:40</td>
+            <td>Nama Mata Kuliah 5</td>
+            <td>Nama Dosen</td>
+            <td>Ruang X</td>
+          </tr>
+          <tr>
+            <td>Rabu</td>
+            <td>10:00 - 11:40</td>
+            <td>Nama Mata Kuliah 6</td>
+            <td>Nama Dosen</td>
+            <td>Ruang X</td>
+          </tr>
+          <tr>
+            <td>Kamis</td>
+            <td>08:00 - 09:40</td>
+            <td>Nama Mata Kuliah 7</td>
+            <td>Nama Dosen</td>
+            <td>Ruang X</td>
+          </tr>
+          <tr>
+            <td>Kamis</td>
+            <td>10:00 - 11:40</td>
+            <td>Nama Mata Kuliah 8</td>
+            <td>Nama Dosen</td>
+            <td>Ruang X</td>
+          </tr>
+          <tr>
+            <td>Jumat</td>
+            <td>08:00 - 09:40</td>
+            <td>Nama Mata Kuliah 9</td>
+            <td>Nama Dosen</td>
+            <td>Ruang X</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- KONTAK -->
+  <section id="kontak" class="section">
+    <h2 class="section-title">Kontak</h2>
+    <div class="kontak-content">
+      <p>Ada pertanyaan atau ingin menghubungi kelas kami? Silakan isi form di bawah.</p>
+      <form class="kontak-form" id="kontakForm">
+        <input type="text" placeholder="Nama Kamu" required>
+        <input type="email" placeholder="Email Kamu" required>
+        <textarea placeholder="Pesan Kamu" rows="5" required></textarea>
+        <button type="submit" class="btn-primary">Kirim Pesan</button>
+      </form>
+      <div class="sosmed-links">
+        <a href="#">Instagram</a>
+        <a href="#">WhatsApp Grup</a>
+        <a href="#">Email</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>&copy; 2026 Kelas 2IB - Manajemen Informatika. Dibuat dengan HTML, CSS & JS.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
